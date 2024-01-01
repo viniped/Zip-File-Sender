@@ -1,0 +1,8 @@
+zipfile36
+natsort
+uvloop
+tqdm
+pyrogram
+tgcrypto
+halo
+
