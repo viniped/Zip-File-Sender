@@ -38,15 +38,17 @@ Este script Python automatiza o processo de envio de arquivos para um canal do T
    - Crie e escreva a legenda para as imagens.
 
 ### 4. Preparar os Arquivos para Envio
-1. **Coloque os arquivos nas pastas `input` e `output`.**
-
+1. **Coloque os arquivos na pastas `input`**
+2. Execute o script. o upload será iniciado após a compactação
+   
 ### 5. Executar o Script
 1. **Abra o terminal no diretório do script.**
 2. **Execute o script:**
    - `python [nome_do_script].py`.
 
 ### Observações
-- Este script é projetado para Windows.
+- Este script é projetado para Windows e linux
+- Para execução no linux você pode usar o mesmo arquivo que usa no windows ou usar o `main_async.py` cuja construção foi feita com um loop assincrono que promete acelerar os uploads
 - Assegure as permissões necessárias no Telegram.
 - A função `process_folder` divide arquivos grandes antes do envio.
 
